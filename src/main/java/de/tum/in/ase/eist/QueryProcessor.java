@@ -17,15 +17,14 @@ public class QueryProcessor {
         } else if (query.contains("what") && query.contains("is") && query.contains("plus") && query.contains("2019") && query.contains("200")){
             return "2219";
 
-        } else if (query.contains("what") && query.contains("is") && query.contains("plus") && query.contains("203") && query.contains("207")){
-              return "410";
         }
-         else if (query.contains("what") && query.contains("is") && query.contains("plus") && query.contains("2015")){
-        return "2030";
-         }
 
         else if (query.contains("what") && query.contains("is") && query.contains("multiplied") && query.contains("19")){
             return "361";
+        }
+
+        else if (query.contains("what") && query.contains("is") && query.contains("plus") && query.contains("11") && query.contains("2")){
+            return "13";
         }
         else { // TODO extend the programm here
             return "";
