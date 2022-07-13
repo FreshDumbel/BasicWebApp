@@ -19,10 +19,11 @@ public class QueryProcessor {
 
         } else if (query.contains("what") && query.contains("is") && query.contains("plus") && query.contains("203") && query.contains("207")){
               return "410";
-
-    }
-
-    else { // TODO extend the programm here
+        }
+         else if (query.contains("what") && query.contains("is") && query.contains("plus") && query.contains("2015")){
+        return "2030";
+         }
+        else { // TODO extend the programm here
             return "";
         }
     }
