@@ -7,6 +7,8 @@ import static org.junit.jupiter.api.Assertions.fail;
 
 class QueryProcessorTest {
 
+	//Hello :)
+
 	private final QueryProcessor queryProcessor = new QueryProcessor();
 
 	@Test
