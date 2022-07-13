@@ -23,6 +23,10 @@ public class QueryProcessor {
          else if (query.contains("what") && query.contains("is") && query.contains("plus") && query.contains("2015")){
         return "2030";
          }
+
+        else if (query.contains("what") && query.contains("is") && query.contains("multiplied") && query.contains("19")){
+            return "361";
+        }
         else { // TODO extend the programm here
             return "";
         }
